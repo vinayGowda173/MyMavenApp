@@ -27,13 +27,13 @@
 
           steps:
 
-          - script: echo Myfirst Azure Pipeline for maven project
+          - script: echo Azure Pipeline
 
-            displayName: 'Run a one-line script'
+            displayName: 'script'
 
           - script: mvn clean install
 
-            displayName: 'Build with maven'
+            displayName: 'Build'
 
           - script: java -jar target/MyMavenApp-1.0-SNAPSHOT.jar
 
