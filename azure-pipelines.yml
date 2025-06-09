@@ -35,7 +35,7 @@
 
             displayName: 'Build'
 
-          - script: java -jar target/MyMavenApp-1.0-SNAPSHOT.jar
+          - script: java -jar target/add-numbers-1.0-SNAPSHOT.jar
 
 
             displayName: 'Running jar'
